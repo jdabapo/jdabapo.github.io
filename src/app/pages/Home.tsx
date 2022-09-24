@@ -6,7 +6,6 @@ import {
   Stack,
   Tooltip,
   Typography,
-<<<<<<< HEAD
 } from '@mui/material';
 import React, { useEffect } from 'react';
 import logo from '../../static/favicon.png';
@@ -17,13 +16,6 @@ import {
   FaFile,
 } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
-=======
-} from "@mui/material";
-import React, { useEffect } from "react";
-import logo from "../../static/favicon.png";
-import { useLocation } from "react-router-dom";
-import { links } from "./links";
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
 
 interface Props {
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
@@ -49,25 +41,15 @@ export default function Home({ setSelectedIndex }: Props) {
       sx={{ minHeight: `calc(100vh - 20px - 33px)` }}
     >
       <Grid item xs={3}>
-<<<<<<< HEAD
         <Stack direction={{ xs: 'column', sm: 'row-reverse' }} spacing={2}>
           <Box display="flex" sx={{ justifyContent: 'center' }}>
-=======
-        <Stack direction={{ xs: "column", sm: "row-reverse" }} spacing={2}>
-          <Box display="flex" sx={{ justifyContent: "center" }}>
-            <img src={logo} width="100px" alt="logo" />
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
           </Box>
           <Box>
             <Grid
               display="flex"
               justifyContent={{ xs: "center", sm: "flex-start" }}
             >
-<<<<<<< HEAD
               <Typography variant="h3">Jeremy Abapo</Typography>
-=======
-              <Typography variant="h3">{process.env.REACT_APP_NAME}</Typography>
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
             </Grid>
             <Grid
               display="flex"
@@ -79,7 +61,6 @@ export default function Home({ setSelectedIndex }: Props) {
               justifyContent={{ xs: "center", sm: "flex-start" }}
             >
               <Stack direction="row" spacing={0.4}>
-<<<<<<< HEAD
                 <Tooltip title="Github" arrow>
                   <Link
                     target="_blank"
@@ -128,20 +109,6 @@ export default function Home({ setSelectedIndex }: Props) {
                     </IconButton>
                   </Link>
                 </Tooltip>
-=======
-                {links.map((link) => (
-                  <Tooltip key={link.index} title={link.title} arrow>
-                    <Link
-                      target="_blank"
-                      href={link.href}
-                      underline="none"
-                      color="inherit"
-                    >
-                      <IconButton color="inherit">{link.icon}</IconButton>
-                    </Link>
-                  </Tooltip>
-                ))}
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
               </Stack>
             </Grid>
           </Box>

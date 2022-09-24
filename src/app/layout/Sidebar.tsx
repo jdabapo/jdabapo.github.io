@@ -5,7 +5,6 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import { VscFiles, VscSettingsGear } from "react-icons/vsc";
 import { BiGitBranch } from "react-icons/bi";
 import Divider from "@mui/material/Divider";
-<<<<<<< HEAD
 import {
   FaBlog,
   FaGithub,
@@ -13,9 +12,6 @@ import {
   FaEnvelope,
   FaFileUpload,
 } from "react-icons/fa";
-=======
-import { links } from "../pages/links";
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
 
 interface Props {
   expanded: boolean;
@@ -84,7 +80,6 @@ export default function Sidebar({
 
         <Divider sx={{ m: 0.5 }} />
 
-<<<<<<< HEAD
         <Box
           sx={{ flexGrow: 0, m: 0.5 }}
           display="flex"
@@ -161,27 +156,6 @@ export default function Sidebar({
             </Link>
           </Tooltip>
         </Box>
-=======
-        {links.map((link) => (
-          <Box
-            key={link.index}
-            sx={{ flexGrow: 0, m: 0.5 }}
-            display="flex"
-            justifyContent="center"
-          >
-            <Tooltip title={link.title} arrow placement="right">
-              <Link
-                target="_blank"
-                href={link.href}
-                underline="none"
-                color="inherit"
-              >
-                <IconButton sx={{ color: "white" }}>{link.icon}</IconButton>
-              </Link>
-            </Tooltip>
-          </Box>
-        ))}
->>>>>>> c4a0a05ae7ea1961db305a8a20f2f30eb74c9e99
       </Box>
 
       <Box
