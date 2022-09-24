@@ -6,7 +6,6 @@ import { VscFiles, VscSettingsGear } from "react-icons/vsc";
 import { BiGitBranch } from "react-icons/bi";
 import Divider from "@mui/material/Divider";
 import {
-  FaBlog,
   FaGithub,
   FaLinkedin,
   FaEnvelope,
