@@ -1,6 +1,6 @@
 # 🧪 Projects
 
-## [Portal 3: Legend of Zelda Edition](https://github.com/amilgrom/eecs482-p2/blob/master/Project%202%20--%20thread%20library.pdf) 🔗`January 2023 – February 2023`
+## [Portal 3: Legend of Zelda Edition](https://arbyroastbeef.itch.io/zelda-portals) 🔗`January 2023 – February 2023`
 #### C#, Unity
 - Leveraged the usage of OOP and composition, to create a recreation of Legend of Zelda with addition of portals.
 - I worked on a number of different things which include, ranging to how to create the player and how to make Link able to attack, working on the enemies and bosses (Goriya, Gel, Aquametrus, and others), learning how to do the animations for both the player and enemies, and general debugging. Some of the other other things that I was able to work on, are the enemy pausing and custom levels and game elements which I was able to enjoy.
