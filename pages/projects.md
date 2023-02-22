@@ -6,9 +6,10 @@
 - Use of EventBus and observer and subscription pattern to handle events, and promote DRY principles.
 - I worked on this as a solo project, doing everything but the art and sounds. The most challenging part of this, was using the EventBus pattern in conjuction with all the different systems.
 - I took art from craft pix for the [background](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/)
-- Music and sound I took from [here](https://youfulca.itch.io/legendary-jrpg-battle-music-pack) 
-<img src="https://i.imgur.com/J9Rp0nD.png" width="400" height="300">
-<img src="https://i.imgur.com/vre7NBY.png" width="400" height="300">
+- Music and sound I took from [here](https://youfulca.itch.io/legendary-jrpg-battle-music-pack)
+<br>
+<img src="https://i.imgur.com/J9Rp0nD.png" width="500" height="300">
+<img src="https://i.imgur.com/vre7NBY.png" width="500" height="300">
 
 ## [Portal 3: Legend of Zelda Edition](https://arbyroastbeef.itch.io/zelda-portals) 🔗`January 2023 – February 2023`
 #### C#, Unity
