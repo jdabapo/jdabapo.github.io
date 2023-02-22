@@ -1,5 +1,13 @@
 # 🧪 Projects
 
+## [Wattle](https://arbyroastbeef.itch.io/wattle) 🔗`February 2023 – February 2023`
+#### C#, Unity, JIRA
+- Strategy typing game where you select a word to type associated with a damage value. Continue on for as long as you like.
+- Use of EventBus and observer and subscription pattern to handle events, and promote DRY principles.
+- I worked on this as a solo project, doing everything but the art and sounds. The most challenging part of this, was using the EventBus pattern in conjuction with all the different systems.
+- I took art from craft pix for the [background](https://craftpix.net/freebies/free-city-backgrounds-pixel-art/)
+- Music and sound I took from [here](https://youfulca.itch.io/legendary-jrpg-battle-music-pack) 
+
 ## [Portal 3: Legend of Zelda Edition](https://arbyroastbeef.itch.io/zelda-portals) 🔗`January 2023 – February 2023`
 #### C#, Unity
 - Leveraged the usage of OOP and composition, to create a recreation of Legend of Zelda with addition of portals.
