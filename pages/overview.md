@@ -21,23 +21,35 @@ Senior student at the University of Michigan, looking for new graduate roles in 
 
 ## Skills
 
-### Developer Tools
-- Figma
-- Amazon Web Services
-- Google Firebase
-- Hadoop
-- Jenkins
-- Databricks
+<details>
+  <summary>Developer Tools</summary>
 
-### Programming languages
-- Python
-- JavaScript/TypeScript
-  - React.js
-- SQL
-- Gherkin
-- C++
+  - Figma
+  - Amazon Web Services
+  - Google Firebase
+  - Hadoop
+  - Jenkins
+  - Databricks
+</details>
+<br>
+<details>
+  <summary>Programming languages</summary>
 
-### Development
-- Flask
-- Mantine, ChartJS, Bootstrap
-- Maven, Cucumber, Springboot
+  - Python
+  - JavaScript/TypeScript
+    - React.js
+  - SQL
+  - Gherkin
+  - C++
+  - C#
+</details>
+<br>
+<details>
+  <summary>Development</summary>
+
+  - Flask
+  - Mantine, ChartJS, Bootstrap
+  - Maven, Cucumber, Springboot
+</details>
+
+## About Me
