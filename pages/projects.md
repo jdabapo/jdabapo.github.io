@@ -2,6 +2,7 @@
 
 ## [Wattle](https://arbyroastbeef.itch.io/wattle) 🔗`February 2023 – February 2023`
 #### C#, Unity, JIRA
+##### [Mac](link1),[Windows](link2)
 - Strategy typing game where you select a word to type associated with a damage value. Continue on for as long as you like.
 - Use of EventBus and observer and subscription pattern to handle events, and promote DRY principles.
 - I worked on this as a solo project, doing everything but the art and sounds. The most challenging part of this, was using the EventBus pattern in conjuction with all the different systems.

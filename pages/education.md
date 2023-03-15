@@ -1,15 +1,28 @@
 # 👨‍🎓 Education
 
-`2019-2023`  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Michigan_Wolverines_Block_M.png?20150520011101" alt="drawing" width="25"/> [University of Michigan](https://umich.edu/)
-
-<strong>Degree:</strong> Bachelor's in Computer Science Engineering
-<strong>Relevant Coursework:</strong> Operating Systems, User Interface Development, Data Structures and Algorithms,
-Foundations of Computer Science, Web Systems, Computer Architecture, Human Centered Software, Video Game Development, Software Engineering
-
-
+<div class="columns">
+  <div class="column-left">
+    <h2><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Michigan_Wolverines_Block_M.png?20150520011101" alt="drawing" width="25"/> 
+    <a href="https://umich.edu/">University of Michigan </a></h2>
+    <h3>Degree: Bachelor's in Computer Science Engineering </h3>
+    <strong>Relevant Coursework:</strong> 
+  <ul>
+    <li>Operating Systems</li>
+    <li>User Interface Development</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Foundations of Computer Science</li>
+    <li>Web Systems</li>
+    <li>Computer Architecture</li>
+    <li>Human Centered Software</li>
+    <li>Video Game Development</li>
+    <li>Software Engineering</li>
+  </ul>
+  </div>
+  <div class="column-right">
+    
 ## 📖Course Details
 <details>
-  <summary><strong style="color:rgb(240, 248, 255)"><a href="  https://web.eecs.umich.edu/~harshavm/eecs482/">EECS 482: Operating Systems</a></strong></summary>
+  <summary><strong style="color:rgb(240, 248, 255)"><a href="https://web.eecs.umich.edu/~harshavm/eecs482/syllabus.html">EECS 482: Operating Systems</a></strong></summary>
         <p>EECS 482 is an introductory course on operating systems at the senior undergraduate or first-year graduate level. The objective of the course is to teach the issues involved in the design and implementation of modern operating systems. </p>
         <ul>
             <li>Implement several modules that form much of the core functionality in modern operating systems</li>
@@ -117,3 +130,22 @@ Foundations of Computer Science, Web Systems, Computer Architecture, Human Cente
     <li>Considers special cases of a general problem that admit particularly elegant solutions</li>
   </ul>
 </details>
+  </div>
+</div>
+
+<style>
+.columns {
+  display: flex;
+}
+
+.column-left {
+  width: 50%;
+}
+
+.column-right {
+  width: 50%;
+}
+</style>
+
+
+
