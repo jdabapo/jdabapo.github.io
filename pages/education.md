@@ -145,6 +145,17 @@
 .column-right {
   width: 50%;
 }
+.hover-text-bob:hover {
+  color: red; /* Change the text color to red when it's hovered over */
+  font-size: 20px; /* Increase the font size to 20px when it's hovered over */
+  animation: bobbing 0.3s ease-in-out infinite; /* Add the bobbing animation */
+}
+
+@keyframes bobbing {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 </style>
 
 

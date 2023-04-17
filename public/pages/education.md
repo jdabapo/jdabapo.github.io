@@ -18,7 +18,7 @@
     <li>Software Engineering</li>
   </ul>
   </div>
-  <div class="column-right">
+<div class="column-right">
     
 ## 📖Course Details
 <details>
@@ -145,6 +145,22 @@
 .column-right {
   width: 50%;
 }
+details:hover summary {
+  color: yellow; /* Change the text color to yellow when it's hovered over */
+  animation: bobbing 1s ease-in-out infinite; /* Add the bobbing animation with a longer duration */
+  cursor: pointer;
+}
+
+details summary {
+  outline: none;
+}
+
+@keyframes bobbing {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); } /* Change the translateY value to make it more subtle */
+  100% { transform: translateY(0); }
+}
+
 </style>
 
 
