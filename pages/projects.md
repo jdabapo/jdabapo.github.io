@@ -1,5 +1,13 @@
 # 🧪 Projects
 
+## [Cosmic Flux Frenzy](https://bilaljai.itch.io/cosmic-flux-frenzy) 🔗`February 2023 – April 2023`
+#### C#, Unity, JIRA
+##### [Mac](link1),[Windows](link2)
+- Action RPG, where you play a rogue spaceship with access to magnetic powers to control enemies, your spaceships, and the environment to ultimately defeat the evil alien overlords.
+- Use of Observer and Publisher system to maintain clean code. We also used composition and inheritance to keep our code organized.
+- Created UI panels and systems to hold onto the current state of the game, the mission and reward system, and the magnet shooting system.
+- I worked on core gameplay functions for this game, including the magnets, missions, and the general movement. Additionally, I worked on the level design as well, and the NPC functionality.
+
 ## [Wattle](https://arbyroastbeef.itch.io/wattle) 🔗`February 2023 – February 2023`
 #### C#, Unity, JIRA
 ##### [Mac](link1),[Windows](link2)
